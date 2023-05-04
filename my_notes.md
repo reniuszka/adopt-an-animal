@@ -45,8 +45,9 @@ My notes how to add pretttier and eslint and vite and react, react DOM
 39. useMemo can add performance optimizations to a component by eliminating re-rendering in the DOM. This can help keep animations smooth and reduce studdering or janky behavior. Use it when have a function to recalculate it only when count is different(coz we added sth to count)
 
 40. useCallback hook memoizes a callback function. This allows a resource-intensive function to be isolated so it will not run on every render.
-41. useLayoutEffect is called immediately after the render function(useEffect is slower) so any calls to setState inside that effect will result in only one re-render instead of two.(useEffect has two). useful when i have sth and i need to mesure sth thath happens in DOM
-    42.!NEW! useId - gives me a specific id for one component, usefull with label and inputs, click on the label and input is focused
+41. useLayoutEffect is called immediately after the render function(useEffect is slower) so any calls to setState inside that effect will result in only one re-render instead of two.(useEffect has two). useful when i have sth and i need to mesure sth thath happens in DOM.
+
+42.!NEW! useId - gives me a specific id for one component, usefull with label and inputs, click on the label and input is focused
 
 link: https://react-v8.holt.courses/ and https://github.com/btholt/citr-v8-project
 ESLint and Prettier apps required to have:
